@@ -11,10 +11,7 @@ app.use(express.json());
 
 //basic routes
 app.get("/", (req, res) => {
-  res.send({
-    name: "hello world",
-    title: "hikaru",
-  });
+  res.send('Welcome to Xmeme Backend');
 });
 
 //connecting the DB
